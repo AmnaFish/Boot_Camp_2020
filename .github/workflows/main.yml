@@ -33,4 +33,4 @@ jobs:
       run: npm install -g surge
       
     - name: Run Surge
-      run: surge ./ bootcamonewapp.surge.sh --token ${{secret.SURGE_TOKEN_INDEX}}
+      run: surge ./ bootcamonewapp.surge.sh --token ${{secrets.SURGE_TOKEN_INDEX}}
